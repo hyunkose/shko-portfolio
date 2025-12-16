@@ -36,3 +36,4 @@ flowchart LR
     A[Source System] --> B[DW]
     B --> C[SQL View / Data Mart]
     C --> D[BI Dashboard]
+```

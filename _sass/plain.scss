@@ -191,16 +191,19 @@ main {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
   li {
-    font-size: 14px;
-    float: left;
+    font-size: 12px;
+    float: none;
     background-color: #e3e3e3;
-    padding: 5px 20px;
+    padding: 3px 12px;
     border-radius: 2px;
     @media screen and (max-width: $mobileW) {
-      margin-top: 5px;
+      margin-top: 0;
     }
-    margin-right: 10px;
+    margin-right: 0;
   }
 }
 .post-date {
@@ -210,14 +213,17 @@ main {
 }
 .post-meta {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
+  gap: 15px;
   min-height: 30px;
+  margin-bottom: 15px;
   @media screen and (max-width: $mobileW) {
     flex-direction: column;
     align-items: baseline;
+    gap: 8px;
     .post-date {
-      margin: 10px 0;
+      margin: 0;
     }
   }
 }
