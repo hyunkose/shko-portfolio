@@ -21,7 +21,7 @@ categories: DataArchitecture SQL DW BI Tableau
 
 ---
 
-## 2. 담당 역할 요약 (Data Architecture / DBA 관점)
+## 2. 담당 역할
 
 - DW 내 원천 데이터를 분석하여 **지표 중심 데이터 구조 설계**
 - 실적 데이터와 목표 데이터를 비교 가능하도록 **데이터 기준 정렬 및 통합**
@@ -32,40 +32,4 @@ categories: DataArchitecture SQL DW BI Tableau
 
 ## 3. 시스템 및 데이터 흐름 구조
 
-```mermaid
-flowchart LR
-    %% Source Systems (DB)
-    A1[(생산 실적\n반도체 재료 원가)]
-    A2[(매출\n판매량)]
-    A3[(연·월 판매 목표 데이터)]
-
-    %% DW Layer
-    B[(DW Raw Layer)]
-
-    %% DW Logical Tables
-    C1[Fact Table\n실적]
-    C2[Dimension Table\n제품 · 조직 · 기간]
-
-    %% SQL Processing
-    S(SQL 산출 로직)
-
-    %% BI Data Mart
-    H[(Tableau Hyper Extract\nData Mart)]
-
-    %% BI Dashboard
-    D{{Tableau BI Dashboard}}
-
-    %% Flow
-    A1 --> B
-    A2 --> B
-    A3 --> B
-
-    B --> C1
-    B --> C2
-
-    C1 --> S
-    C2 --> S
-
-    S --> H
-    H --> D
-```
+![SK하이닉스 BI 시스템 데이터 흐름]({{ "/assets/sk_hynix_diagram.png" | relative_url }})
