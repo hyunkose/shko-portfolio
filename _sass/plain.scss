@@ -242,8 +242,14 @@ main {
 
 .post-title {
   line-height: 1.2em;
-  font-size: 22px;
-  margin-bottom: 10px;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+hr {
+  margin: 40px 30px;
+  border: none;
+  border-top: 1px solid #eee;
 }
 .posts,
 .post-container {
@@ -281,19 +287,19 @@ main {
   }
   h1 {
     font-family: Raleway, sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     margin-top: 20px;
     margin-bottom: 10px;
   }
   h2 {
     font-family: Raleway, sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 18px;
     margin-bottom: 10px;
   }
   h3 {
     font-family: Raleway, sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     margin-top: 16px;
     margin-bottom: 8px;
   }
@@ -301,7 +307,7 @@ main {
   h5,
   h6 {
     font-family: Raleway, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 14px;
     margin-bottom: 8px;
   }
