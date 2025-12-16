@@ -246,11 +246,6 @@ main {
   margin-bottom: 30px;
 }
 
-.posts li .post-title {
-  font-size: 22px;
-  margin-bottom: 15px;
-}
-
 hr {
   margin: 40px 30px;
   border: none;
@@ -267,14 +262,6 @@ hr {
   @media screen and (max-width: $mobileW) {
     padding: 0 !important;
     margin-top: 0;
-  }
-  li {
-    padding: 25px 0;
-    border-bottom: 1px solid #f0f0f0;
-    
-    &:last-child {
-      border-bottom: none;
-    }
   }
 }
 .post-container {
