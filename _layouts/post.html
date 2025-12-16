@@ -8,10 +8,11 @@ layout: default
   </a>
   <div class="post-meta">
     <div class="post-date">
-      <i class="icon-calendar"></i>
       {%- if page.date_range -%}
+        <span class="date-label">수행기간</span>
         {{ page.date_range }}
       {%- else -%}
+        <i class="icon-calendar"></i>
         {{ page.date | date: date_format }}
       {%- endif -%}
     </div>
