@@ -227,7 +227,7 @@ main {
 
 .post-title {
   line-height: 1.2em;
-  font-size: 28px;
+  font-size: 22px;
   margin-bottom: 10px;
 }
 .posts,
@@ -250,9 +250,11 @@ main {
   font-family: "Merriweather", sans-serif;
   font-weight: 300;
   color: #222;
-  line-height: 1.9em;
+  line-height: 1.7em;
+  font-size: 15px;
   p {
     margin-top: 10px;
+    font-size: 15px;
   }
   a {
     color: $linkColor;
@@ -262,13 +264,31 @@ main {
       border-bottom: 0.5px solid $linkColor;
     }
   }
-  h1,
-  h2,
-  h3,
+  h1 {
+    font-family: Raleway, sans-serif;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-family: Raleway, sans-serif;
+    font-size: 24px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
   h4,
   h5,
   h6 {
     font-family: Raleway, sans-serif;
+    font-size: 16px;
+    margin-top: 14px;
+    margin-bottom: 8px;
   }
 }
 .posts-labelgroup {
