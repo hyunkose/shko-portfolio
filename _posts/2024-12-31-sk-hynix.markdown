@@ -32,18 +32,40 @@ categories: DataArchitecture SQL DW BI Tableau
 
 ## 3. 시스템 및 데이터 흐름 구조
 
-~~~mermaid
+```mermaid
 flowchart LR
-    A1[생산 실적<br/>반도체 재료 원가] --> B[DW Raw Layer]
-    A2[매출<br/>판매량] --> B
-    A3[연·월 판매 목표 데이터] --> B
+    %% Source Systems (DB)
+    A1[(생산 실적\n반도체 재료 원가)]
+    A2[(매출\n판매량)]
+    A3[(연·월 판매 목표 데이터)]
 
-    B --> C1[Fact Table<br/>실적]
-    B --> C2[Dimension Table<br/>제품 · 조직 · 기간]
+    %% DW Layer
+    B[(DW Raw Layer)]
 
-    C1 --> S[SQL 산출 로직]
+    %% DW Logical Tables
+    C1[Fact Table\n실적]
+    C2[Dimension Table\n제품 · 조직 · 기간]
+
+    %% SQL Processing
+    S(SQL 산출 로직)
+
+    %% BI Data Mart
+    H[(Tableau Hyper Extract\nData Mart)]
+
+    %% BI Dashboard
+    D{{Tableau BI Dashboard}}
+
+    %% Flow
+    A1 --> B
+    A2 --> B
+    A3 --> B
+
+    B --> C1
+    B --> C2
+
+    C1 --> S
     C2 --> S
 
-    S --> H[Tableau Hyper Extract<br/>(Data Mart)]
-    H --> D[Tableau BI Dashboard]
-~~~
+    S --> H
+    H --> D
+```
