@@ -246,6 +246,12 @@ main {
   margin-bottom: 30px;
 }
 
+// 포스팅 목록 페이지에서 제목 크기 축소
+.posts .post-title {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
 hr {
   margin: 40px 30px;
   border: none;
