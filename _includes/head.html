@@ -8,3 +8,9 @@
 {% if site.plainwhite.dark_mode %}
 <script type="text/javascript" src="{{ "/assets/js/darkmode.js" | relative_url }}"></script>
 {% endif %}
+<!-- Mermaid diagram support -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: true, theme: 'default' });
+  mermaid.contentLoaded();
+</script>
