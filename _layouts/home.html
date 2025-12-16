@@ -48,7 +48,11 @@ layout: default
         </div>
         <div class="post">
           {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
+            {%- if post.description -%}
+              {{ post.description }}
+            {%- else -%}
+              {{ post.excerpt }}
+            {%- endif -%}
           {%- endif -%}
         </div>
       </li>
