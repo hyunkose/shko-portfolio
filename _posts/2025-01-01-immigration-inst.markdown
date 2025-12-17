@@ -1,8 +1,12 @@
 ---
 layout: post
-title:  "Integrating razorpay into your webapp"
-date:   2019-03-23 21:03:36 +0530
-categories: Javascript NodeJS
+title: "SK하이닉스 BI 시스템 구축 – DW 기반 데이터 설계 및 SQL·Hyper Extract 개발·운영"
+date: 2024-12-31 21:00:00 +0900
+date_range: "2023.10 ~ 2024.12"
+description: |
+  반도체 원가·매출·판매량 및 판매 목표 데이터를 DW 기반으로 통합하고, SQL 산출 로직을 통해 Tableau Hyper Extract(Data Mart)를 구축하여
+  BI 대시보드에 안정적으로 제공한 프로젝트
+categories: SAP-HANA Postgresql Tableau
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 

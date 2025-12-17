@@ -6,7 +6,7 @@ date_range: "2023.10 ~ 2024.12"
 description: |
   반도체 원가·매출·판매량 및 판매 목표 데이터를 DW 기반으로 통합하고, SQL 산출 로직을 통해 Tableau Hyper Extract(Data Mart)를 구축하여
   BI 대시보드에 안정적으로 제공한 프로젝트
-categories: DataArchitecture SQL DW BI Tableau
+categories: SAP-HANA Postgresql Tableau
 ---
 
 ## 1. 프로젝트 개요
@@ -45,7 +45,24 @@ categories: DataArchitecture SQL DW BI Tableau
 
 ---
 
-## 4. 수행 업무 요약
+## 4. 수행 업무 상세
+
+> ![수행 업무 흐름도 상세]({{ "/assets/sk_hynix_workflow_detail.png" | relative_url }})
+> 서로 상이한 원천 시스템(MES·ERP 등)에서 추출된 데이터를 Staging 계층에서 표준화하고, 
+> 이후 공통키 기반 Join을 통해 통합 테이블을 구성하는 과정으로 업무를 진행하였습니다.
+
+> Staging 단계에서는 
+> 
+> - 통화 단위 변환(USD→KRW)
+> - 마감월 오프셋 정정 
+> - 제품코드 매핑 등 
+> 
+> 정합성 확보를 위한 사전 처리를 수행하였습니다.
+
+> 이후 Join 단계에서 Date / Product / Plant 레벨에서의 키 매핑 기준을 단일화하여 분석용 Data Mart 성격을 가지는 Tableau Hyper Extract의 최종 아웃풋 정의하였습니다.
+---
+
+## 5. 수행 업무 요약
 
 > - 현업의 요구 사항에 맞는 DW 내 원천 데이터 분석 및 지표 중심 데이터 구조 설계
 > - 실적·목표 데이터 비교 분석을 위한 SQL 산출 로직 구현
