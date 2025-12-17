@@ -58,8 +58,9 @@ categories: SAP-HANA Postgresql Tableau
 > - 제품코드 매핑 등 
 > 
 > 정합성 확보를 위한 사전 처리를 수행하였습니다.
-
+> 
 > 이후 Join 단계에서 Date / Product / Plant 레벨에서의 키 매핑 기준을 단일화하여 분석용 Data Mart 성격을 가지는 Tableau Hyper Extract의 최종 아웃풋 정의하였습니다.
+
 ---
 
 ## 5. 수행 업무 요약
