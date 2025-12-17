@@ -50,6 +50,7 @@ categories: SAP-HANA Postgresql Tableau
 > ![수행 업무 흐름도 상세]({{ "/assets/sk_hynix_workflow_detail.png" | relative_url }})
 > 
 > 서로 상이한 원천 시스템(MES·ERP 등)에서 추출된 데이터를 Staging 계층에서 표준화하고, 
+> 
 > 이후 공통키 기반 Join을 통해 통합 테이블을 구성하는 과정으로 업무를 진행하였습니다.
 
 > Staging 단계에서는 
@@ -60,7 +61,11 @@ categories: SAP-HANA Postgresql Tableau
 > 
 > 정합성 확보를 위한 사전 처리를 수행하였습니다.
 > 
-> 이후 Join 단계에서 Date / Product / Plant 레벨에서의 키 매핑 기준을 단일화하여 분석용 Data Mart 성격을 가지는 Tableau Hyper Extract의 최종 아웃풋 정의하였습니다.
+> Join 단계에서는
+> 
+> Date / Product / Plant 레벨에서의 키 매핑 기준을 단일화하여 
+> 
+> 분석용 Data Mart 성격을 가지는 Tableau Hyper Extract의 최종 아웃풋 정의하였습니다.
 
 ---
 

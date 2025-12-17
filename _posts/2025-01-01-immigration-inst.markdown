@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SK하이닉스 BI 시스템 구축 – DW 기반 데이터 설계 및 SQL·Hyper Extract 개발·운영"
+title: "이민정책연구원 BI 시스템 구축 – DW 기반 데이터 설계 및 SQL·Hyper Extract 개발·운영"
 date: 2024-12-31 21:00:00 +0900
 date_range: "2023.10 ~ 2024.12"
 description: |
