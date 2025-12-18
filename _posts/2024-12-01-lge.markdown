@@ -55,7 +55,7 @@ categories: Redshift AWS-Quicksight
 
 ## 4. 수행 업무 상세
 
-> <img src="{{ "/assets/lge_workflow_detail.png" | relative_url }}" alt="수행 업무 흐름도 상세" style="width: 100%; max-width: 1000px; margin: 20px 0;">
+> <img src="{{ "/assets/lge_workflow_detail.png" | relative_url }}" alt="수행 업무 흐름도 상세" style="width: 100%; max-width: 800px; margin: 20px 0;">
 > 
 > 본 업무는 외부 운영 시스템(New Best, CSC 등)에서 적재된 Level1 원천 데이터를 기반으로
 > 일시불·구독 고객의 구매 패턴과 지점별 영업 성과를 분석하기 위한 

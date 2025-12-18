@@ -49,8 +49,7 @@ categories: SAP-HANA-DB Postgresql Tableau
 ---
 
 ## 4. 수행 업무 상세
-
-> ![수행 업무 흐름도 상세]({{ "/assets/sk_hynix_workflow_detail.png" | relative_url }})
+> <img src="{{ "/assets/sk_hynix_workflow_detail.png" | relative_url }}" alt="수행 업무 흐름도 상세" style="width: 100%; max-width: 800px; margin: 20px 0;">
 > 
 > 서로 상이한 원천 시스템(MES·ERP 등)에서 추출된 데이터를 Staging 계층에서 표준화하고, 
 > 
