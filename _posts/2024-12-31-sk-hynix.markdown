@@ -74,7 +74,8 @@ categories: SAP-HANA-DB Postgresql Tableau
 
 ## 5. 수행 업무 요약
 
-> - 구독·일시불 고객 실적 분석을 위한 DW 원천 데이터 구조 분석 및 지표 중심 모델 설계
-> - 고객·지점·지역·제품군 기준 통합 분석이 가능하도록 SQL 산출 로직 구현
-> - BI 분석용 SQL 기반 Data Source 구축 및 Quicksight Dashboard 연계 지원
-> - Level1/Level2 적재 데이터 기준 표준화 및 Key 매핑으로 지표 정합성 확보
+> - 현업의 요구 사항에 맞는 DW 내 원천 데이터 분석 및 지표 중심 데이터 구조 설계
+> - 실적·목표 데이터 비교 분석을 위한 SQL 산출 로직 구현
+> - BI 전용 데이터소스인 Tableau Hyper Extract(Data Mart) 구축
+> - 대용량 데이터 환경에서의 조회 성능 및 운영 안정성 확보
+> - DW–BI 연계 구간의 데이터 품질 및 지표 정합성 검증 담당

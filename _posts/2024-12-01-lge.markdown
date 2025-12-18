@@ -39,7 +39,7 @@ categories: Redshift AWS-Quicksight
 
 ## 3. 업무 시스템 구조도
 
-> ![업무 시스템 구조도]({{ "/assets/lge_system_diagram.png.png" | relative_url }})
+> ![업무 시스템 구조도]({{ "/assets/lge_system_diagram.png" | relative_url }})
 >
 > 본 업무에서 사용된 DW 시스템은 외부 판매·고객·계약 등 운영 시스템(New Best, CSC 등)으로부터
 > 일 단위 ETL을 통해 데이터를 적재하는 구조로 운영되었습니다.
@@ -55,7 +55,7 @@ categories: Redshift AWS-Quicksight
 
 ## 4. 수행 업무 상세
 
-> ![수행 업무 흐름도 상세]({{ "/assets/lge_workflow_detail.png" | relative_url }})
+> <img src="{{ "/assets/lge_workflow_detail.png" | relative_url }}" alt="수행 업무 흐름도 상세" style="width: 100%; max-width: 1000px; margin: 20px 0;">
 > 
 > 본 업무는 외부 운영 시스템(New Best, CSC 등)에서 적재된 Level1 원천 데이터를 기반으로
 > 일시불·구독 고객의 구매 패턴과 지점별 영업 성과를 분석하기 위한 
@@ -70,6 +70,7 @@ categories: Redshift AWS-Quicksight
 > 등 지표 산출을 위한 정합성·표준화 작업을 수행하였습니다.
 >
 > **Integration 단계**에서는
+> 
 > Date · Customer · Product · Branch 기준의 공통키를 적용하여
 > 지점별 구매수량/구매금액, 지역별 구독 비율, 제품군별 구독 성과 등을 
 > 산출할 수 있는 통합 구조를 정의하였습니다.
@@ -82,5 +83,7 @@ categories: Redshift AWS-Quicksight
 
 ## 5. 수행 업무 요약
 
-> - 요약1
-> - 요약2
+> - 구독·일시불 고객 실적 분석을 위한 DW 원천 데이터 구조 분석 및 지표 중심 모델 설계
+> - 고객·지점·지역·제품군 기준 통합 분석이 가능하도록 SQL 산출 로직 구현
+> - BI 분석용 SQL 기반 Data Source 구축 및 Quicksight Dashboard 연계 지원
+> - Level1/Level2 적재 데이터 기준 표준화 및 Key 매핑으로 지표 정합성 확보
