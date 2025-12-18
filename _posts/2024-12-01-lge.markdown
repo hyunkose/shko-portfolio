@@ -81,6 +81,7 @@ categories: Redshift AWS-Quicksight
 
 ---
 
+
 ## 5. 수행 업무 요약
 
 > - 구독·일시불 고객 실적 분석을 위한 DW 원천 데이터 구조 분석 및 지표 중심 모델 설계
