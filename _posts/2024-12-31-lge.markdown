@@ -32,7 +32,7 @@ categories: Redshift AWS-Quicksight
 
 ## 2. 수행 업무 흐름
 
-> <img src="{{ "/assets/lge_workflow.png" | relative_url }}" alt="수행 업무 흐름도 상세" style="width: 100%; max-width: 800px; margin: 20px 0;">
+> <img src="{{ "/assets/lge_workflow.png" | relative_url }}" alt="수행 업무 흐름도 상세" style="width: 100%; max-width: 1200px; margin: 20px 0;">
 >
 > DW 내 원천 데이터 구조를 분석하여 지점 영업 담당자의 요구사항을 기반으로
 >
@@ -46,7 +46,7 @@ categories: Redshift AWS-Quicksight
 
 ## 3. 업무 시스템 구조도
 
-> <img src="{{ "/assets/lge_system_diagram.png" | relative_url }}" alt="수행 업무 흐름도 상세" style="width: 100%; max-width: 800px; margin: 20px 0;">
+> <img src="{{ "/assets/lge_system_diagram.png" | relative_url }}" alt="수행 업무 흐름도 상세" style="width: 100%; max-width: 1200px; margin: 20px 0;">
 >
 > 본 업무에서 사용된 DW 시스템은 외부 판매·고객·계약 등 운영 시스템(New Best, CSC 등)으로부터
 >
@@ -66,7 +66,7 @@ categories: Redshift AWS-Quicksight
 
 ## 4. 수행 업무 상세
 
-> <img src="{{ "/assets/lge_workflow_detail.png" | relative_url }}" alt="수행 업무 흐름도 상세" style="width: 100%; max-width: 800px; margin: 20px 0;">
+> <img src="{{ "/assets/lge_workflow_detail.png" | relative_url }}" alt="수행 업무 흐름도 상세" style="width: 100%; max-width: 1200px; margin: 20px 0;">
 >
 > **DW 원천 데이터 가공 단계**
 >
