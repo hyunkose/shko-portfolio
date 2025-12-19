@@ -45,7 +45,9 @@ categories: SAP-HANA-DB Postgresql Tableau
 > - EDW 통합 계층에서 데이터 정합성 및 기준을 통합 관리
 >
 > **저의 업무는 EDW에 적재된 데이터로부터** 
+>
 > **BI 분석 목적에 맞게 Data Mart 성격의 Hyper Extract를 설계·생성하고** 
+>
 > **Tableau 대시보드 리포트를 제작하는 것이었습니다.**
 
 ---
