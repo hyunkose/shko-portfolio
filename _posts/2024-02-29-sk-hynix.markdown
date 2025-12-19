@@ -28,7 +28,7 @@ categories: SAP-HANA-DB Postgresql Tableau
 
 ## 2. 수행 업무 흐름
 
-> ![수행 업무 흐름도]({{ "/assets/sk_hynix_workflow.png" | relative_url }})
+> <img src="{{ "/assets/sk_hynix_workflow.png" | relative_url }}" alt="수행 업무 흐름도" style="width: 100%; max-width: 1200px; margin: 20px 0;">
 >
 > DW 내 원천 데이터를 분석하여 현업이 요구한 지표 정의에 맞는 데이터 기준을 수립하였으며,  
 > SQL 기반 산출 로직을 통해 BI 활용 목적의 데이터 구조를 구성하였습니다.  
@@ -38,7 +38,7 @@ categories: SAP-HANA-DB Postgresql Tableau
 
 ## 3. 업무 시스템 구조도
 
-> ![업무 시스템 구조도]({{ "/assets/sk_hynix_system_diagram.png" | relative_url }})
+> <img src="{{ "/assets/sk_hynix_system_diagram.png" | relative_url }}" alt="업무 시스템 구조도" style="width: 100%; max-width: 1200px; margin: 20px 0;">
 >
 > 제가 업무를 진행한 DW의 구조는 다음과 같은 흐름으로 구성되어 있었습니다.
 > - 기간계 시스템(MES, ERP, Sales, Planning)에서 발생한 데이터를 ODS에 적재
@@ -51,7 +51,7 @@ categories: SAP-HANA-DB Postgresql Tableau
 ---
 
 ## 4. 수행 업무 상세
-> <img src="{{ "/assets/sk_hynix_workflow_detail.png" | relative_url }}" alt="수행 업무 흐름도 상세" style="width: 100%; max-width: 800px; margin: 20px 0;">
+> <img src="{{ "/assets/sk_hynix_workflow_detail.png" | relative_url }}" alt="수행 업무 흐름도 상세" style="width: 100%; max-width: 1200px; margin: 20px 0;">
 >
 > **DW 데이터 원천**
 >

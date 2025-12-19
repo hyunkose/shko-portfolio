@@ -34,7 +34,7 @@ categories: Oracle
 
 ## 2. 수행 업무 흐름
 
-> ![수행 업무 흐름도]({{ "/assets/lotte_workflow.png" | relative_url }})
+> <img src="{{ "/assets/lotte_workflow.png" | relative_url }}" alt="수행 업무 흐름도" style="width: 100%; max-width: 1200px; margin: 20px 0;">
 >
 > 일 단위 배치 환경에서 Stored Procedure를 통해
 >
@@ -50,7 +50,7 @@ categories: Oracle
 
 ## 3. 업무 시스템 구조도
 
-> ![업무 시스템 구조도]({{ "/assets/lotte_system_diagram.png" | relative_url }})
+> <img src="{{ "/assets/lotte_system_diagram.png" | relative_url }}" alt="업무 시스템 구조도" style="width: 100%; max-width: 1200px; margin: 20px 0;">
 >
 > 운영계 시스템(마케팅/고객/캠페인)에서 발생한 원천 데이터는
 >
@@ -80,7 +80,7 @@ categories: Oracle
 
 ## 4. 수행 업무 상세
 
-> <img src="{{ "/assets/lotte_workflow_detail.png" | relative_url }}" alt="수행 업무 흐름도 상세" style="width: 100%; max-width: 800px; margin: 20px 0;">
+> <img src="{{ "/assets/lotte_workflow_detail.png" | relative_url }}" alt="수행 업무 흐름도 상세" style="width: 100%; max-width: 1200px; margin: 20px 0;">
 > 
 > **ODS 적재 데이터 활용 단계**
 >
