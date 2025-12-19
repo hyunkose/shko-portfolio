@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "LG전자 한국영업본부 BI 시스템 운영 – DW 기반 지표 BI 데이터소스 설계 및 운영"
-date: 2024-12-31 21:00:00 +0900
+title: "LG전자 한국영업본부 BI 시스템 운영 – DW 기반 BI 데이터 소스 설계 및 운영"
+date: 2025-12-19 21:00:00 +0900
 date_range: "2025.05 ~ 2025.12"
 description: |
   영업본부 현업 요구사항을 기반으로 신규 영업 지표를 정의하고, 
@@ -12,7 +12,7 @@ description: |
 categories: Redshift AWS-Quicksight
 ---
 
-## 1. 수행 업무 개요 개요
+## 1. 수행 업무 개요
 
 > - **업무명**: LG전자 한국영업본부 BI 시스템 운영  
 > - **수행기관**: (주)이지코어솔루션즈  
@@ -80,11 +80,3 @@ categories: Redshift AWS-Quicksight
 > 직관적으로 분석할 수 있는 형태로 제공되었습니다.
 
 ---
-
-
-## 5. 수행 업무 요약
-
-> - 구독·일시불 고객 실적 분석을 위한 DW 원천 데이터 구조 분석 및 지표 중심 모델 설계
-> - 고객·지점·지역·제품군 기준 통합 분석이 가능하도록 SQL 산출 로직 구현
-> - BI 분석용 SQL 기반 Data Source 구축 및 Quicksight Dashboard 연계 지원
-> - Level1/Level2 적재 데이터 기준 표준화 및 Key 매핑으로 지표 정합성 확보
