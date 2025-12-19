@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "롯데멤버스 마케팅 캠페인 시스템 고도화 – Stored Procedure 분석·개선 및 ETL 안정성 강화"
+title: "롯데멤버스 마케팅 캠페인 시스템 고도화 – Stored Procedure 분석·개선"
 date: 2024-11-30 21:00:00 +0900
 date_range: "2024.09 ~ 2024.11"
 description: |
