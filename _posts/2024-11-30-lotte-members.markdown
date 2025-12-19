@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "롯데멤버스 마케팅 캠페인 시스템 고도화 – Stored Procedure 분석·개선 및 ETL 안정성 강화"
-date: 2025-12-17 21:00:00 +0900
+date: 2024-11-30 21:00:00 +0900
 date_range: "2024.09 ~ 2024.11"
 description: |
   마케팅 쿠폰 발송 채널 확장에 대응하기 위해 
@@ -70,7 +70,6 @@ categories: Oracle
 
 > <img src="{{ "/assets/lotte_workflow_detail.png" | relative_url }}" alt="수행 업무 흐름도 상세" style="width: 100%; max-width: 800px; margin: 20px 0;">
 > 
-> **EDW 단계에서는**
 > - 쿠폰 조건에 따른 타겟 고객 모집단 추출
 > - 피로도/중복/수신거부 등 발송 제외 정책 적용
 > - 카카오톡 친구톡 / RCS 발송 결과 수신 및 적재
