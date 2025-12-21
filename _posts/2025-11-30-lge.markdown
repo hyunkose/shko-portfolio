@@ -48,19 +48,29 @@ categories: Redshift AWS-Quicksight
 
 > <img src="{{ "/assets/lge_system_diagram.png" | relative_url }}" alt="수행 업무 흐름도 상세" style="width: 100%; max-width: 1200px; margin: 20px 0;">
 >
-> 본 업무에서 사용된 DW 시스템은 외부 판매·고객·계약 등 운영 시스템(New Best, CSC 등)으로부터
->
-> 일 단위 ETL을 통해 데이터를 적재하는 구조로 운영되었습니다.
+> LG전자 한국영업본부의 DW 시스템은
 > 
-> 적재된 데이터는 DW 내에서 Level1(Staging/Raw) 형태로 원천 값을 유지하고,
->
-> 이후 Level2(정제·통합 계층)에서 품질 검증 및 통합 기준에 따라 가공되었습니다.
+> 외부 판매·고객·계약 시스템(NewBest, CSC 등)으로부터 데이터를 ODS로 적재하고,
 > 
-> **저는 이러한 구조의 DW 적재 데이터를 기반으로**
->
-> **가전 구독 서비스 영업 지표 산출을 위한 SQL Data Source를 설계·운영하고,**
->
-> **이를 BI Dashboard에서 활용 가능하도록 제공하였습니다.**
+> DW 내부에서는 주제영역 기반으로 데이터가 구성되어 있습니다.
+> 
+> DW에서는 이미 다음과 같은 구조가 구축되어 있었습니다.
+> 
+> Level1: 고객/제품/판매/조직 등 대분류 주제영역
+> 
+> Level2: 회원정보, 제품군/가격, 판매실적, 구독/일시불 등 중분류 데이터 영역
+> 
+> Level1~Level2 단계까지는
+> 
+> 원천 데이터가 주제별로 정리·통합된 상태로 제공되고 있었습니다.
+> 
+> **저는 이 DW Level1/Level2 데이터를 기반으로**
+> 
+> **Level3 FACT/DIM 테이블을 설계·구현하고**
+> **(예: FACT_SALES, DIM_CUSTOMER, DIM_PRODUCT, DIM_STORE)**
+> 
+> **지표 산출에 필요한 Key 매핑·정제·집계 로직을 SQL로 구현하여**
+> **BI 분석용 Data Source를 구축했습니다.**
 
 ---
 
